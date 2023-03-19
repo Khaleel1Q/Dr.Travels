@@ -1,0 +1,22 @@
+<html>
+    <link href='info.css' rel='stylesheet' >
+     <body>
+    <div class="info-box">
+<form class="customer-form" action="customerinfo.php" method="post" >
+                <p><b>Customer Details</b></p>   
+                        <p>Customer Id</p>
+        <input type="text" name="customer_id" placeholder="Enter customer_id"  id="customer_id"required>
+            <p>Customer Name</p>
+        <input type="text" name="customer_name" placeholder="Enter customer_name " id="customer_name"required>
+   
+            <p>Date Of Birth</p>
+        <input type="date" name="date_of_birth" placeholder="dd/mm/yyyy"  id="date_of_birth"required>
+              <p>Address</p>
+        <input type="text" name="address" placeholder="Enter address" id="address"required>
+                         <p>Phone Number</p>
+        <input type="text" name="ph_no" placeholder="Enter ph_no" id="ph_no" pattern="[789][0-9]{9}" required>
+          <input type="submit" name="Submit" value="Submit" id="submit">
+             </form>
+         </div>
+    </body>
+    </html>

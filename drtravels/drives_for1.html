@@ -1,0 +1,98 @@
+<html>
+    <link href='style2.css' rel='stylesheet' >
+    <ul>
+        
+          <li><a>Route</a>
+             <div class="sub-menu-1">
+                <ul>
+                  <li> <ul><li> <a><form class="route-form" action="route.php" method="post">
+                   
+                        <p>Route Id</p>
+        <input type="text" name="route_id" placeholder="Enter route_id"  id="route_id" required >
+            <p>Source</p>
+        <input type="text" name="source" placeholder="Enter source " id="source"required>
+   
+            <p>Destination</p>
+        <input type="text" name="destination" placeholder="destination"  id="destination"required>
+              <p>Distance</p>
+        <input type="text" name="distance" placeholder="Enter distance" id="distance"required>
+                       
+          <input type="submit" name="submit" value="Submit" id="submit">
+             </form>  
+                 </a>  </li> </ul></li>  </ul>
+                    </div>
+           
+             </li>
+        
+        <li><a>Drives For</a>
+            
+       
+         <div class="sub-menu-1">
+                <ul>
+                  <li>  <form class="drivesfor-form" action="drives_for1.php" method="post">
+                   
+                        <p>Driver Id</p>
+                          <input type="text" name="driver_id" placeholder="Enter driver_id"  id="driver_id" required>
+            <p>Route Id</p>
+                <input type="text" name="route_id" placeholder="Enter route_id " id="route_id" required>
+   
+           
+            <p>Date</p>
+                  <input type="date" name="date" placeholder="Enter date" id="date" required>
+                        <input type="submit" name="submit" value="Submit" id="submit">
+             </form>
+                    </li>
+                        </ul>
+                    </div>
+            
+             <li><a>Tickets</a>
+        
+         <div class="attributes">
+                <ul>
+                  <li>  <form class="tickets-form" action="tickets.php" method="post">
+                   
+                        <p>Ticket_no</p>
+                          <input type="text" name="ticket_no" placeholder="Enter ticket_no"  id="ticket_no" required>
+            <p>Route Id</p>
+                <input type="text" name="route_id" placeholder="Enter route_id " id="route_id" required>
+   
+            
+            <p>Source</p>
+                  <input type="text" name="source" placeholder="Enter source" id="source" required>
+                         <p>Destination</p>
+                            <input type="text" name="destination" placeholder="Enter destination" id="destination" required>
+                       <p>Cost</p>
+                           <input type="text" name="cost" placeholder="cost"  id="cost" required>
+                        
+                      
+                      <p>Tax</p>
+                           <input type="text" name="tax" placeholder="tax"  id="tax" required>
+                      
+                      <p>Total</p>
+                           <input type="text" name="total" placeholder="total"  id="total" required>
+                                            
+
+                        <input type="submit" name="submit" value="Submit" id="submit">
+             </form> 
+                    </li>
+                        </ul>
+                    </div>
+            
+            
+              <li><a>Logout</a>
+             <div class="sub-menu-1">
+                <ul>
+                  <li>  <form class="logout-form" action="driversignin.html" method="post">
+                   
+                   
+                       
+          <input type="submit" name="Logout" value="Logout" id="submit">
+             </form>  
+                    </li>  </ul>
+                    </div>
+           
+             </li>
+            
+    </ul>
+   
+</html>

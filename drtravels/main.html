@@ -1,0 +1,136 @@
+<html>
+    <link href='style1.css' rel='stylesheet' >
+   
+    
+    <ul>
+        <li><a>home</a></li>
+        <li><a>Driver</a>
+       
+         <div class="sub-menu-1">
+             <ul>
+                  <li> <ul><li> <form class="driver-form" action="driver.php" method="post">
+                   
+                        <p>Driver Id</p>
+                          <input type="text" name="driver_id" placeholder="Enter driver_id"  id="driver_id" required>
+            <p>Driver Name</p>
+                <input type="text" name="driver_name" placeholder="Enter driver_name " id="driver_name" required>
+   
+           
+            <p>Address</p>
+                  <input type="text" name="address" placeholder="Enter address" id="address" required>
+                         <p>Phone Number</p>
+                            <input type="text" name="ph_no" placeholder="Enter ph_no" id="ph_no" pattern="[6789][0-9]{9}" required>
+                       <p>Age</p>
+                           <input type="text" name="age" placeholder="age"  id="age" required>
+                       
+                        <input type="submit" name="submit" value="Submit" id="submit">
+             </form>
+                   </li> </ul> </li>
+                        </ul>
+                    </div>
+       
+       
+       
+       
+       
+       
+       
+       
+        </li>
+        <li><a>Customer</a>
+            <div class="sub-menu-1">
+                <ul>
+                  <li> <ul><li> <form class="customer-form" action="customer.php" method="post" required>
+                   
+                        <p>Customer Id</p>
+        <input type="text" name="customer_id" placeholder="Enter customer_id"  id="customer_id"required>
+            <p>Customer Name</p>
+        <input type="text" name="customer_name" placeholder="Enter customer_name " id="customer_name"required>
+   
+            <p>Date Of Birth</p>
+        <input type="date" name="date_of_birth" placeholder="dd/mm/yyyy"  id="date_of_birth"required>
+              <p>Address</p>
+        <input type="text" name="address" placeholder="Enter address" id="address"required>
+                         <p>Phone Number</p>
+        <input type="text" name="ph_no" placeholder="Enter ph_no" id="ph_no" pattern="[789][0-9]{9}" required>
+          <input type="submit" name="submit" value="Submit" id="submit">
+             </form>
+                    </li></ul> </li>
+                        </ul>
+                    </div>
+                    </li>
+
+           
+               
+       
+       
+       
+       
+        <li><a>Route</a>
+             <div class="sub-menu-1">
+                <ul>
+                  <li> <ul><li> <a><form class="route-form" action="route.php" method="post">
+                   
+                        <p>Route Id</p>
+        <input type="text" name="route_id" placeholder="Enter route_id"  id="route_id" required >
+            <p>Source</p>
+        <input type="text" name="source" placeholder="Enter source " id="source"required>
+   
+            <p>Destination</p>
+        <input type="text" name="destination" placeholder="destination"  id="destination"required>
+              <p>Distance</p>
+        <input type="text" name="distance" placeholder="Enter distance" id="distance"required>
+                       
+          <input type="submit" name="submit" value="Submit" id="submit">
+             </form>  
+                 </a>  </li> </ul></li>  </ul>
+                    </div>
+           
+             </li>
+       
+        
+         <li><a>Entries</a>
+             <div class="sub-menu-1">
+                <ul>
+                  <li>  <form class="logs-form" action="logs.php" method="post">
+                   
+          <input type="submit" name="submit" value="Check Entries" id="submit">
+             </form>  
+                    </li>  </ul>
+                    </div>
+           
+             </li>
+       
+         <li><a>Logout</a>
+             <div class="sub-menu-1">
+                <ul>
+                  <li>  <form class="logout-form" action="signin.php" method="post">
+                   
+                   
+                       
+          <input type="submit" name="submit" value="Submit" id="submit">
+             </form>  
+                    </li>  </ul>
+                    </div>
+           
+             </li>
+       
+        
+       
+        <li><a>About us</a>
+            <ul><li>
+        <a>PHONE1:8971011301</a>
+                </li>
+            </ul>
+             <ul><li>
+        <a>PHONE2:8892557500</a>
+                </li>
+            </ul>
+             <ul><li>
+        <a>Email:123@mail.com</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</html>
+

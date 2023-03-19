@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    width:100%;
+    height: 60px;
+    background-color: #000;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    width:140px;
+    height: 60px;
+    font-size:20px;
+    line-height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    
+    display: block
+}
+ul li a:hover {
+    background-color: black;
+    transition:1s all ease;
+    
+}
+ul li ul li{
+    display: none;
+    background-color: black;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+    height:60px;
+    transition: 1s all;
+}
+ul li:hover ul li{
+    display: block;
+    animation: :drop 1s ease;
+}
+@keyframes drop{
+    0%{
+        transform: scale(2,2) rotatex(90deg);
+    }
+    100%{transform: scale(1,1) rotatex(0deg);}
+}

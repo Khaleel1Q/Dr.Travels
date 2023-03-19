@@ -1,0 +1,24 @@
+<html>
+    <link href='info.css' rel='stylesheet' >
+    <body>
+    <div class="info-box">
+<form class="driver-form" action="driverinfo.php" method="post">
+                  <p><b>Driver Details</b></p>   
+                        <p>Driver Id</p>
+                          <input type="text" name="driver_id" placeholder="Enter driver_id"  id="driver_id" required>
+            <p>Driver Name</p>
+                <input type="text" name="driver_name" placeholder="Enter driver_name " id="driver_name" required>
+   
+           
+            <p>Address</p>
+                  <input type="text" name="address" placeholder="Enter address" id="address" required>
+                         <p>Phone Number</p>
+                            <input type="text" name="ph_no" placeholder="Enter ph_no" id="ph_no" pattern="[6789][0-9]{9}" required>
+                       <p>Age</p>
+                           <input type="text" name="age" placeholder="age"  id="age" required>
+                       
+                        <input type="submit" name="Submit" value="Submit" id="submit">
+             </form>
+        </div>
+    </body>
+</html>
